@@ -1,0 +1,163 @@
+.header-area {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 9;
+}
+
+.header-sticky.sticky-bar {
+    background: rgb(255, 255, 255);
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .header-area .main-header {
+        padding: 0px 20px;
+    }
+}
+
+.header-area .main-header {
+    padding: 0px 85px;
+}
+
+.sticky-bar {
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: rgba(25, 25, 25, 0.1) 0px 10px 15px;
+    margin: auto;
+    animation: 300ms ease-in-out 0s 1 normal none running fadeInDown;
+    background: rgb(255, 255, 255);
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-area .menu-wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+.f-right {
+    float: right;
+}
+/* .d-none {
+    display: none !important;
+} */
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.header-area .menu-wrapper .main-menu ul li {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.header-area .menu-wrapper .main-menu ul li .a {
+    color: #670000;
+    font-weight: 400;
+    padding: 39px 19px;
+    display: block;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    text-transform: capitalize;
+}
+.a, button {
+    color: #fff;
+    outline: medium none;
+}
+.a {
+    color: #635c5c;
+}
+.a, .button {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
+li {
+    display: list-item ;
+    text-align: -webkit-match-parent;
+}
+
+ul {
+    list-style-type: disc;
+}
