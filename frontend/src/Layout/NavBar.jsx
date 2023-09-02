@@ -18,6 +18,7 @@ const NavBar = () => {
                 <div className="main-header header-sticky sticky-bar">
                     <div className='w-full'>
                         <Box width='100%' display='flex' alignContent='center' justifyContent='space-between' flexWrap='wrap' alignItems='center' >
+                            {/* Logo (Writeup) */}
                             <Box width={['70%', '30%', '20%', '17%']}>
                                 <Box width='100%' flex={{ md: 'flex-start' }}>
                                     <Text color='purple.400' fontSize='3xl' fontWeight='bold'>
@@ -25,15 +26,18 @@ const NavBar = () => {
                                     </Text>
                                 </Box>
                             </Box>
+
+                            {/* Dropdown Buttons */}
                             <Box display={{ base: "flex", lg: "none" }} py={['14px', '31px', '']} justifyContent='flex-end' width={['30%', '40%', '40%', '']} >
                                 {!toggle &&
                                     <BsList onClick={() => setToggle(!toggle)} className='text-2xl md:text-4xl text-purple-800 font-black' />
                                 }
-                                { toggle &&
+                                {toggle &&
                                     <FaTimes onClick={() => setToggle(!toggle)} className='text-2xl md:text-4xl text-purple-800 font-bold' />
                                 }
                             </Box>
 
+                            {/* Navigation menu */}
                             <Box display={{ base: "none", md: "none", lg: "flex" }} width='55%'>
                                 <Box width='100%' >
                                     <nav className='w-full' >
@@ -91,6 +95,8 @@ const NavBar = () => {
                                     </Button>
                                 </Box>
                             </Box>
+
+                            {/* Dropdown menu */}
                             {toggle &&
                                 <hr className='w-full text-black md:py-3 md:-mt-2 text-sm ' />
                             }
@@ -120,7 +126,7 @@ const NavBar = () => {
             </div>
             {/* <!-- Header End --> */}
         </header>
-        
+
     )
 }
 

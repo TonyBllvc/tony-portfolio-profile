@@ -60,8 +60,8 @@ header {
  
 .header-area .main-header {
     padding: 0px 37px;
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -86,6 +86,13 @@ header {
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .header-area .main-header {
         padding: 0px 120px;
+    }
+}
+
+
+@media only screen and (min-width: 1601px) {
+    .header-area .main-header {
+        padding: 0px 320px;
     }
 }
 
