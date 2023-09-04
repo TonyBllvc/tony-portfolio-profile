@@ -1,4 +1,4 @@
-import { Box, Table, TableContainer, Tbody, Td, Th, Thead, Tr } from '@chakra-ui/react'
+import { Box, Table, TableContainer, Tbody, Td, Text, Th, Thead, Tr } from '@chakra-ui/react'
 import React from 'react'
 
 const AboutMeOne = () => {
@@ -6,14 +6,14 @@ const AboutMeOne = () => {
         <section>
             <Box width='100%' display='flex' flexDirection='row' justifyContent='space-around' py='40px'>
 
-                <Box width={['85%', '85%', '90%', '85%']} py='30px' >
-                    <Box width='100%' bg='whitesmoke' px={['12px', '10px', '5px', '5px']} py={['30px', '30px', '30px', '30px']} boxShadow='lg' display='flex' flexDirection={['column', 'column', 'row', 'row']}>
+                <Box width={['85%', '85%', '87%', '87%']} py='30px' >
+                    <Box width='100%' bg='whitesmoke' px={['20px', '20px', '20px', '20px']} py={['30px', '30px', '30px', '30px']} boxShadow='lg' display='flex' flexDirection={['column', 'column', 'row', 'row']}>
 
                         <Box width={['100%', '100%', '50%', '50%']} bg='whitesmoke'>
                             <Box width='100%' display='flex' flexDirection='column' justifyContent='center'>
 
                                 <Box width='100%' display='flex' flexDirection={['column', 'column', 'row', 'row']} justifyContent='space-around'>
-                                    <Box width={['100%', '100%', '35%', '35%']}>
+                                    <Box w idth={['100%', '100%', '35%', '35%']}>
                                         ddddd
                                         {/* Image goes here */}
                                         <Box width='100%' py={['50px', '60px', '80px', '70px']}>
@@ -88,7 +88,10 @@ const AboutMeOne = () => {
                                             Skills
                                         </h2>
                                         <hr className='w-full text-purple-900 md:py-3 mt-2 text-lg ' />
-                                            {/* Line */}
+                                        {/* Line */}
+                                        <span>
+
+                                        </span>
                                         {/* </div> */}
                                     </Box>
 
@@ -103,7 +106,15 @@ const AboutMeOne = () => {
                                 <h1 className=' text-2xl md:text-4xl font-semibold'>
                                     About Me
                                 </h1>
-                                <hr className='w-5/12 text-purple-500 md:py-3 mt-2 text-lg border-purple-500 border-t-4 flex-grow' /> 
+                                <hr className=' w-16 sm:w-20 md:w-28 text-purple-500 md:py-3 my-2 text-lg border-purple-500 border-t-4 flex-grow' />
+                                <Box>
+                                    <Text letterSpacing='tight' color='blackAlpha.700' fontWeight={['medium', 'semibold', 'semibold', 'semibold']} fontSize={['13', '13', '13', '16']} textAlign='justify' my='2'>
+                                        For more than 5 years now, design has been the central piece of my world. On this fast and mind-blowing journey, I have moved over the years from being a visual designer to a full-time UX/UI thinker and designer.
+                                    </Text>
+                                    <Text letterSpacing='tight' color='blackAlpha.700' fontWeight={['medium', 'semibold', 'semibold', 'semibold']} fontSize={['13', '13', '13', '16']} textAlign='justify' my='2'>
+                                        At the moment, this journey has brought me to Cloud Academy in Mendrisio, Switzerland where I am a full-time Product Designer. In this position, as with freelance, I am working remotely and I have been for approximately two years
+                                    </Text>
+                                </Box>
                             </Box>
                         </Box>
                     </Box>

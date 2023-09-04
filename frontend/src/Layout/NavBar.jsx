@@ -91,7 +91,7 @@ const NavBar = () => {
                             <Box display={{ base: "none", md: "none", lg: "flex" }} width='20%' height='100%'>
                                 <Box width='100%' display='flex' height='100%' justifyContent='center'>
                                     <Button fontSize='xl' fontWeight='semibold' p='7' variant='variants' >
-                                        Let's Talk <AiOutlineArrowRight className='text-purple-800 text-lg' />
+                                        Let's Talk <AiOutlineArrowRight className='text-white text-lg' />
                                     </Button>
                                 </Box>
                             </Box>

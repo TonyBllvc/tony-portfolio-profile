@@ -20,6 +20,11 @@ const theme = extendTheme({
         },
       },
     },
+    span: {
+      baseStyle: {
+        bgGradient: 'linear(to-r, purple.500, purple.400, purple.600)',
+      }
+    }
   },
 });
 
