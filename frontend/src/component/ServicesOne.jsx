@@ -27,7 +27,7 @@ const ServicesOne = () => {
                                             <CardBody width='100%'>
                                                 <Box width='100%' display='flex' flexDirection='row' justifyContent='space-around' mb={[ '3px', '10px', '10px', '15px']}>
                                                     <h1 className='mt-3 uppercase text-xl md:text-xl text-center lg:text-3xl tracking-tight lg:tracking-tighter font-semibold md:font-semibold lg:font-bold'>
-                                                        Web-Design
+                                                        Web Design
                                                     </h1>
                                                 </Box>
                                                 <Box width='100%' mt={['3px', '10px', '10px', '15px']}>
