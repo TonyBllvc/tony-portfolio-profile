@@ -14,15 +14,26 @@ const theme = extendTheme({
       // Define gradient background for the button
       baseStyle: {
         bgGradient: 'linear(to-r, purple.700, purple.300)',
-        color: 'white',
+        color: 'whiteAlpha.900',
         _hover: {
           bgGradient: 'linear(to-r, purple.300, purple.700)',
         },
       },
     },
-    span: {
+
+    Input: {
       baseStyle: {
-        bgGradient: 'linear(to-r, purple.500, purple.400, purple.600)',
+        _placeholder: {
+          color: 'purple.700',
+          fontSize: '70px',
+          fontWeight: 'bold',
+        },
+        border: '2px solid purple',
+        borderRadius: '4px',
+        _focus: {
+          borderColor: 'purple.900'
+        },
+
       }
     }
   },

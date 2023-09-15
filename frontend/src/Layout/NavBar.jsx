@@ -1,11 +1,9 @@
-import { Box, Button, Image, Img, Text, } from '@chakra-ui/react'
+import { Box, Button, } from '@chakra-ui/react'
 import React, { useState } from 'react'
 import '../assets/css/header.css'
 import { AiOutlineArrowRight, } from 'react-icons/ai'
-import { BsChatDots, BsList } from 'react-icons/bs'
+import {  BsList } from 'react-icons/bs'
 import { FaTimes } from 'react-icons/fa'
-import { BiBookContent, BiTimeFive, BiTimer } from 'react-icons/bi'
-import { ImList, ImList2, ImSwitch } from 'react-icons/im'
 import { NavLink, useNavigate } from 'react-router-dom'
 
 const NavBar = () => {
@@ -92,7 +90,7 @@ const NavBar = () => {
                             </Box>
                             <Box display={{ base: "none", md: "none", lg: "flex" }} width='20%' height='100%'>
                                 <Box width='100%' display='flex' height='100%' justifyContent='center'>
-                                    <Button fontSize='xl' fontWeight='semibold' p='7' variant='variants' >
+                                    <Button fontSize='xl' fontWeight='semibold' p='7' variant >
                                         Let's Talk <AiOutlineArrowRight className='text-white text-lg' />
                                     </Button>
                                 </Box>

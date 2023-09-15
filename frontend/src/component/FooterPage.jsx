@@ -1,10 +1,10 @@
-import { Box, Container } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
 import React from 'react'
 
 const FooterPage = () => {
     return (
         <>
-            <Box width='100%' display='flex' justifyContent='center' py='30px' bg='purple.600' color='gray.200'>
+            <Box width='100%' display='flex' justifyContent='center' py='30px' bg='purple.500' color='gray.200'>
                 {/* <Container > */}
                 <Box width='70%'>
                     <Box width='100%' display='flex' flexDirection={['column', 'column', 'row', 'row']} justifyContent='center'>
