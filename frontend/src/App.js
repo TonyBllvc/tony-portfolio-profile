@@ -2,7 +2,7 @@ import { BrowserRouter, Navigate, Route, Routes, } from "react-router-dom";
 import Layout from "./Layout";
 import logo from './assets/img/favicon.ico'
 import { useEffect } from "react";
-import Index from "./pages/IndexPage";
+import IndexPage from "./pages/IndexPage";
 // import './assets/css/main.css'
 // import './assets/css/header.css'
 // import ViewTimeTable from "./pages/component/ViewTimeTable";
@@ -25,7 +25,7 @@ export default function App() {
             <BrowserRouter>
                     <Layout>
                         <Routes>
-                            <Route path="/" element={<Index />} />
+                            <Route path="/" element={<IndexPage />} />
                         </Routes>
                     </Layout>
 

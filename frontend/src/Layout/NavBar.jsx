@@ -21,7 +21,7 @@ const NavBar = () => {
                             {/* Logo (Writeup) */}
                             <Box width={['70%', '30%', '20%', '17%']}>
                                 <Box width='100%' flex={{ md: 'flex-start' }}>
-                                    <NavLink className='text-purple-700 text-4xl font-extrabold'
+                                    <NavLink to='/' className='text-purple-700 text-4xl font-extrabold'
                                     // color='purple.400' fontSize='3xl' fontWeight='bold'
                                     >
                                         Tony.

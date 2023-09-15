@@ -7,7 +7,7 @@ import PortfolioOne from '../component/PortfolioOne'
 
 const IndexPage = () => {
     useEffect(() => {
-        document.title ='Personal | Portolio'
+        document.title = 'Personal | Portolio'
     })
 
     return (
