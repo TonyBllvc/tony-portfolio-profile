@@ -9,14 +9,14 @@ const FooterPage = () => {
                 <Box width='70%'>
                     <Box width='100%' display='flex' flexDirection={['column', 'column', 'row', 'row']} justifyContent='center'>
                         <Box width={['100%', '100%', '49%', '49%']}>
-                            <Box width='95%'>
+                            <Box bg='teal.400' width='95%'>
                                 Copyright © 2023 All rights reserved
                             </Box>
                         </Box>
-                        <Box width='1%' display={['none', 'none', 'flex', 'flex']}>
+                        <Box width={['0','0', '1%', '1%']} bg='red.300' display={['none', 'none', 'flex', 'flex']}>
                             |
                         </Box>
-                        <Box width={['100%', '100%', '49%', '49%']}>
+                        <Box bg='yellow.400' width={['100%', '100%', '49%', '49%']}>
                             <Box width='95%'>
                                 Designed by Tony
                             </Box>
