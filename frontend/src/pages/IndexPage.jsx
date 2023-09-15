@@ -3,6 +3,7 @@ import MainPage from '../component/MainPage'
 import AboutMeOne from '../component/AboutMeOne'
 import ServicesOne from '../component/ServicesOne'
 import PortfolioOne from '../component/PortfolioOne'
+import ContactForm from '../component/ContactForm'
 // import '../assets/css/main.css'
 
 const IndexPage = () => {
@@ -16,6 +17,7 @@ const IndexPage = () => {
             <AboutMeOne />
             <ServicesOne />
             <PortfolioOne />
+            <ContactForm />
         </>
     )
 }
